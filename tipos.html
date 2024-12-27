@@ -26,7 +26,7 @@
 
         .grid {
             display: grid;
-            grid-template-columns: repeat(5, 1fr); /* Cuatro columnas */
+            grid-template-columns: repeat(4, 1fr); /* Cuatro columnas */
             gap: 10px; /* Separación entre las imágenes */
             text-align: center;
             margin-left: 100px;
@@ -39,7 +39,7 @@
         }
 
         .item img {
-            max-width:160px; /* Tamaño máximo de las imágenes */
+            max-width:150px; /* Tamaño máximo de las imágenes */
             transition: transform 0.3s ease; /* Animación al pasar el cursor */
         }
 
@@ -55,7 +55,7 @@
         .item span {
             display: block;
             margin-top: 10px;
-            font-size: 1.4rem; /* Tamaño de las letras */
+            font-size: 1.5rem; /* Tamaño de las letras */
             font-weight: bold; /* Letras en negrita */
             color: white; /* Color del texto */
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para mayor legibilidad */
@@ -92,10 +92,6 @@
 <body>
      <button class="back-button" onclick="window.location.href='indice.html';">Volver</button><h1><h1>
     <div class="grid">
-        <div class="item">
-            <a href="platino.html"><img src="platino.png" alt="platino"></a>
-            <span>Patrocinio PLATINO</span>
-        </div>
         <div class="item">
             <a href="oro.html"><img src="oro.png" alt="oro"></a>
             <span>Patrocinio ORO</span>
